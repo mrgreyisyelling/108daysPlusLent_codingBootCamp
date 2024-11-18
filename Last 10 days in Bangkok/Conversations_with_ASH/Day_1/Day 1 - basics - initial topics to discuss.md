@@ -295,3 +295,10 @@ Can you tell me how to make this broth when I get home?
 
 [[Things to read and watch]]
 
+-----------------------
+
+[[Talking about how to proceed]]
+
+----
+
+[[Day 1 - syllabus and projects]]
