@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/ETH Wallet Contract.md",
+                "file": "Conversations_with_ASH/Day_1/hardhat install instructions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ETH Wallet Contract"
+              "title": "hardhat install instructions"
             }
           }
         ],
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/ETH Wallet Contract.md",
+                "file": "Conversations_with_ASH/Day_1/hardhat install instructions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ETH Wallet Contract"
+              "title": "Backlinks for hardhat install instructions"
             }
           },
           {
@@ -139,12 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/ETH Wallet Contract.md",
+                "file": "Conversations_with_ASH/Day_1/hardhat install instructions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ETH Wallet Contract"
+              "title": "Outgoing links from hardhat install instructions"
             }
           },
           {
@@ -166,10 +166,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/ETH Wallet Contract.md"
+                "file": "Conversations_with_ASH/Day_1/hardhat install instructions.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of ETH Wallet Contract"
+              "title": "Outline of hardhat install instructions"
             }
           }
         ]
@@ -191,6 +191,7 @@
   },
   "active": "3f967d9b8a2966dc",
   "lastOpenFiles": [
+    "Conversations_with_ASH/Day_1/ETH Wallet Contract.md",
     "Conversations_with_ASH/Day_1/Projects/scripts/interact_wallet.js",
     "Conversations_with_ASH/Day_1/Projects/cache/console-history.txt",
     "Conversations_with_ASH/Day_1/Day 1 - basics - initial topics to discuss.md",
@@ -203,7 +204,6 @@
     "Conversations_with_ASH/Day_1/Projects/artifacts/contracts/SimpleStorage.sol/SimpleStorage.dbg.json",
     "Conversations_with_ASH/Day_1/Projects/artifacts/contracts/wallet.sol",
     "Conversations_with_ASH/Day_1/Projects/artifacts/contracts/SimpleStorage.sol",
-    "Conversations_with_ASH/Day_1/Projects/artifacts/contracts",
     "Conversations_with_ASH/Day_1/Projects/node_modules/ethers/README.md",
     "Conversations_with_ASH/Day_1/Projects/node_modules/ethers/LICENSE.md",
     "Conversations_with_ASH/Day_1/Projects/node_modules/aes-js/README.md",
