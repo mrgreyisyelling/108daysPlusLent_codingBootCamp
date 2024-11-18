@@ -1,0 +1,30 @@
+  await tx.wait();
+const tx = await storage.setValue(9); // Replace 42 with any value > 10
+console.log("Owner address:", owner);
+const owner = await storage.owner();
+const storage = await ethers.getContractAt("SimpleStorage", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+.exit
+const owner = await storage.owner();
+const storage = await ethers.getContractAt("SimpleStorage", "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+npx hardhat node
+.exit
+    This clears all previously declared variables.
+    Exit the current session by typing .exit or pressing Ctrl + D, then start the console again.
+Restart the Console:
+  const tx = await storage.setValue(9); // Replace 42 with any value > 10
+  const storage = await ethers.getContractAt("SimpleStorage", "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+  const tx = await storage.setValue(9); // Replace 42 with any value > 10
+.exit
+const tx_4 = await storage.setValue(9);
+  const tx = await storage.setValue(9); // Replace 42 with any value > 10
+  console.log("Stored value:", value);
+const value = await storage.getValue();
+  console.log("Owner address:", owner);
+const owner = await storage.owner();
+  const storage = await ethers.getContractAt("SimpleStorage", "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+  console.log("Updated stored value:", newValue);
+  const newValue = await storage.getValue();
+  await tx.wait();
+  const tx = await storage.setValue(42); // Replace 42 with any value > 10
+clear
+.exit
