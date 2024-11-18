@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/hardhat install instructions.md",
-                "mode": "source",
+                "file": "Conversations_with_ASH/Day_1/Day 1 - part 4 - expanding the wallet project.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hardhat install instructions"
+              "title": "Day 1 - part 4 - expanding the wallet project"
             }
           }
         ],
@@ -100,11 +100,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "330accd35663ed10",
@@ -120,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/hardhat install instructions.md",
+                "file": "Conversations_with_ASH/Day_1/Day 1 - part 4 - expanding the wallet project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for hardhat install instructions"
+              "title": "Backlinks for Day 1 - part 4 - expanding the wallet project"
             }
           },
           {
@@ -139,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/hardhat install instructions.md",
+                "file": "Conversations_with_ASH/Day_1/Day 1 - part 4 - expanding the wallet project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from hardhat install instructions"
+              "title": "Outgoing links from Day 1 - part 4 - expanding the wallet project"
             }
           },
           {
@@ -166,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/hardhat install instructions.md"
+                "file": "Conversations_with_ASH/Day_1/Day 1 - part 4 - expanding the wallet project.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of hardhat install instructions"
+              "title": "Outline of Day 1 - part 4 - expanding the wallet project"
             }
           }
         ]
@@ -192,10 +194,11 @@
   "active": "3f967d9b8a2966dc",
   "lastOpenFiles": [
     "Conversations_with_ASH/Day_1/ETH Wallet Contract.md",
+    "Conversations_with_ASH/Day_1/Day 1 - part 4 - expanding the wallet project.md",
+    "Conversations_with_ASH/Day_1/hardhat install instructions.md",
     "Conversations_with_ASH/Day_1/Projects/scripts/interact_wallet.js",
     "Conversations_with_ASH/Day_1/Projects/cache/console-history.txt",
     "Conversations_with_ASH/Day_1/Day 1 - basics - initial topics to discuss.md",
-    "Conversations_with_ASH/Day_1/hardhat install instructions.md",
     "Conversations_with_ASH/Day_1/Projects/cache/solidity-files-cache.json",
     "Conversations_with_ASH/Day_1/Projects/cache",
     "Conversations_with_ASH/Day_1/Projects/artifacts/contracts/wallet.sol/Wallet.json",
@@ -227,7 +230,6 @@
     "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/best-practices/mocking-request.md",
     "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/best-practices/client-certificate.md",
     "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/assets/lifecycle-diagram.png",
-    "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/api/api-lifecycle.md",
     "Conversations_with_ASH/Day_1/Project_1/node_modules/undici/docs/assets/lifecycle-diagram.png",
     "Sources/Zero-To-Mastery/Pasted image 20241118101006.png",
     "Sources/Zero-To-Mastery/Pasted image 20241118101212.png",

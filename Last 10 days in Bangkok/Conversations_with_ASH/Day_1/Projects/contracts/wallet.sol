@@ -3,10 +3,14 @@ pragma solidity ^0.8.27;
 
 contract Wallet{
     address public owner;
+    address public pendingOwner;
     mapping (address => uint256) public accountBalances;
     uint256 public contractBalance;
     event Deposit(address sender, uint256 amount);
     event Withdrawal(address recipient, uint256 amount);
+    event transferOwnershipBegan(address oldOwner, address newOwner);
+    event transferOwnershipend(address newOwner);
+
 
     constructor(){
         owner = msg.sender;
@@ -16,6 +20,23 @@ contract Wallet{
         require(owner==msg.sender, "Not the Owner");
         _;
     }
+
+    modifier onlyPendingOwner(){
+        require(pendingOwner==msg.sender, "not the new Owner");
+    }
+
+    function transferOwnership(address newOwner) public onlyOwner{
+        oldOwner = owner;
+        pendingOwner = newOwner;
+        emit transferOwnershipBegan(oldOwner, pendingOwner)
+    }
+
+    function acceptOwnership() public onlyPendingOwner{
+        owner = pendingOwner
+        emit transferOwnershipend(owner) 
+    }
+
+    
 
     function depositEth() public payable{
         contractBalance += msg.value;
