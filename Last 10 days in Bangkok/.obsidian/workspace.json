@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/Day 1 - following ASH's plan.md",
+                "file": "Conversations_with_ASH/Day_1/ETH Wallet Contract.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 1 - following ASH's plan"
+              "title": "ETH Wallet Contract"
             }
           }
         ],
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/Day 1 - following ASH's plan.md",
+                "file": "Conversations_with_ASH/Day_1/ETH Wallet Contract.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Day 1 - following ASH's plan"
+              "title": "Backlinks for ETH Wallet Contract"
             }
           },
           {
@@ -154,12 +154,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/Day 1 - following ASH's plan.md",
+                "file": "Conversations_with_ASH/Day_1/ETH Wallet Contract.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Day 1 - following ASH's plan"
+              "title": "Outgoing links from ETH Wallet Contract"
             }
           },
           {
@@ -181,10 +181,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/Day 1 - following ASH's plan.md"
+                "file": "Conversations_with_ASH/Day_1/ETH Wallet Contract.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Day 1 - following ASH's plan"
+              "title": "Outline of ETH Wallet Contract"
             }
           }
         ]
@@ -206,6 +206,8 @@
   },
   "active": "d6c270364eb097ed",
   "lastOpenFiles": [
+    "Conversations_with_ASH/Day_1/Day 1 - following ASH's plan.md",
+    "Conversations_with_ASH/Day_1/ETH Wallet Contract.md",
     "Conversations_with_ASH/Day_1/Project_2/contracts/wallet.sol",
     "Conversations_with_ASH/Day_1/Project_2/contracts",
     "Conversations_with_ASH/Day_1/Project_2/test",
@@ -217,9 +219,7 @@
     "Conversations_with_ASH/Day_1/Project_1/cache/console-history.txt",
     "Conversations_with_ASH/Day_1/Project_1/cache/solidity-files-cache.json",
     "Conversations_with_ASH/Day_1/Project_1/artifacts/contracts/SimpleStorage.sol/SimpleStorage.json",
-    "Conversations_with_ASH/Day_1/Project_1/artifacts/contracts/SimpleStorage.sol/SimpleStorage.dbg.json",
     "Conversations_with_ASH/Day_1/Day 1 - basics - initial topics to discuss.md",
-    "Conversations_with_ASH/Day_1/Day 1 - following ASH's plan.md",
     "Conversations_with_ASH/Course list.md",
     "Conversations_with_ASH/Day_1/hardhat install instructions.md",
     "Conversations_with_ASH/Day_1/Project_1/node_modules/lodash/release.md",
