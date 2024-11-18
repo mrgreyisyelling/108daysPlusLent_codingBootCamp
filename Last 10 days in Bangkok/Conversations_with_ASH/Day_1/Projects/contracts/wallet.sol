@@ -10,7 +10,8 @@ contract Wallet{
     event Withdrawal(address recipient, uint256 amount);
     event transferOwnershipBegan(address oldOwner, address newOwner);
     event transferOwnershipend(address newOwner);
-
+    event pauseSet(bool pauseState);
+    bool public pause = 0;
 
     constructor(){
         owner = msg.sender;
@@ -25,26 +26,35 @@ contract Wallet{
         require(pendingOwner==msg.sender, "not the new Owner");
     }
 
-    function transferOwnership(address newOwner) public onlyOwner{
+    modifier onlyUnPaused(){
+        require(pause==0, "Pause is set");
+    }
+    function setPause(bool pauseSetting) public onlyOwner{
+        pause = pauseSetting;
+        emit pauseSet(pause);
+    }
+
+
+    function transferOwnership(address newOwner) public onlyOwner onlyUnPaused{
         oldOwner = owner;
         pendingOwner = newOwner;
         emit transferOwnershipBegan(oldOwner, pendingOwner)
     }
 
-    function acceptOwnership() public onlyPendingOwner{
+    function acceptOwnership() public onlyPendingOwner onlyUnPaused{
         owner = pendingOwner
         emit transferOwnershipend(owner) 
     }
 
-    
 
-    function depositEth() public payable{
+
+    function depositEth() public payable onlyUnPaused{
         contractBalance += msg.value;
         accountBalances[msg.sender] += msg.value;
         emit Deposit(msg.sender, msg.value);
     }
 
-    function withdraw(uint256 amount) public onlyOwner{
+    function withdraw(uint256 amount) public onlyOwner onlyUnPaused{
         require(contractBalance >= amount && accountBalances[msg.sender] >= amount, "Not enougth Eth");
         contractBalance -= amount;
         accountBalances[msg.sender] -= amount;
