@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/mike/Documents/Development_space/Self_Training_with_the_AI/Last 10 days in Bangkok/Conversations_with_ASH/Day_1/Projects/contracts/SimpleStorage.sol": {
+      "lastModificationDate": 1731917999474,
+      "contentHash": "7f36177ff70de0f7d8474599c4298403",
+      "sourceName": "contracts/SimpleStorage.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.27"
+      ],
+      "artifacts": [
+        "SimpleStorage"
+      ]
+    },
+    "/home/mike/Documents/Development_space/Self_Training_with_the_AI/Last 10 days in Bangkok/Conversations_with_ASH/Day_1/Projects/contracts/wallet.sol": {
+      "lastModificationDate": 1731916470762,
+      "contentHash": "338827efc79ca0f0262cfc2f74d2b12b",
+      "sourceName": "contracts/wallet.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.27"
+      ],
+      "artifacts": [
+        "Wallet"
+      ]
+    }
+  }
+}

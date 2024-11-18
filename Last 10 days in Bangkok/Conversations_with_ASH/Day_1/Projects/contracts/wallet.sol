@@ -37,7 +37,7 @@ contract Wallet{
     }
 
     function getIndividualBalance() public view returns(uint256){
-        return accountBalance[msg.sender];
+        return accountBalances[msg.sender];
     }
 
 }

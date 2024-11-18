@@ -39,20 +39,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/Day 1 - basics - initial topics to discuss.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Day 1 - basics - initial topics to discuss"
-            }
-          },
-          {
-            "id": "d6c270364eb097ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Conversations_with_ASH/Day_1/ETH Wallet Contract.md",
                 "mode": "source",
                 "source": false
@@ -62,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "330accd35663ed10",
@@ -204,44 +189,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d6c270364eb097ed",
+  "active": "3f967d9b8a2966dc",
   "lastOpenFiles": [
-    "Conversations_with_ASH/Day_1/Day 1 - following ASH's plan.md",
-    "Conversations_with_ASH/Day_1/ETH Wallet Contract.md",
-    "Conversations_with_ASH/Day_1/Project_2/contracts/wallet.sol",
-    "Conversations_with_ASH/Day_1/Project_2/contracts",
-    "Conversations_with_ASH/Day_1/Project_2/test",
-    "Conversations_with_ASH/Day_1/Project_2/scripts",
-    "Conversations_with_ASH/Day_1/Project_2/hardhat.config.js",
-    "Conversations_with_ASH/Day_1/Project_2/package.json",
-    "Conversations_with_ASH/Day_1/Project_2/requirements.md",
-    "Conversations_with_ASH/Day_1/Project_2",
-    "Conversations_with_ASH/Day_1/Project_1/cache/console-history.txt",
-    "Conversations_with_ASH/Day_1/Project_1/cache/solidity-files-cache.json",
-    "Conversations_with_ASH/Day_1/Project_1/artifacts/contracts/SimpleStorage.sol/SimpleStorage.json",
+    "Conversations_with_ASH/Day_1/Projects/scripts/interact_wallet.js",
+    "Conversations_with_ASH/Day_1/Projects/cache/console-history.txt",
     "Conversations_with_ASH/Day_1/Day 1 - basics - initial topics to discuss.md",
-    "Conversations_with_ASH/Course list.md",
     "Conversations_with_ASH/Day_1/hardhat install instructions.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/lodash/release.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/lodash/README.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/hardhat/sample-projects/javascript-esm/README.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/hardhat/README.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/hardhat/sample-projects/javascript-esm/LICENSE.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/ethers/README.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/ethers/LICENSE.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/solc/README.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/hardhat/sample-projects/typescript/README.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/hardhat/sample-projects/typescript/LICENSE.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/hardhat/sample-projects/typescript-viem/README.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/hardhat/sample-projects/typescript-viem/LICENSE.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/@sentry/tracing/README.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/mocha/README.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/undici/types/README.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/undici/README.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/@sentry/types/README.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/hardhat/sample-projects/javascript/README.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/hardhat/sample-projects/javascript/LICENSE.md",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/@ethersproject/providers/README.md",
+    "Conversations_with_ASH/Day_1/Projects/cache/solidity-files-cache.json",
+    "Conversations_with_ASH/Day_1/Projects/cache",
+    "Conversations_with_ASH/Day_1/Projects/artifacts/contracts/wallet.sol/Wallet.json",
+    "Conversations_with_ASH/Day_1/Projects/artifacts/contracts/wallet.sol/Wallet.dbg.json",
+    "Conversations_with_ASH/Day_1/Projects/artifacts/contracts/SimpleStorage.sol/SimpleStorage.json",
+    "Conversations_with_ASH/Day_1/Projects/artifacts/contracts/SimpleStorage.sol/SimpleStorage.dbg.json",
+    "Conversations_with_ASH/Day_1/Projects/artifacts/contracts/wallet.sol",
+    "Conversations_with_ASH/Day_1/Projects/artifacts/contracts/SimpleStorage.sol",
+    "Conversations_with_ASH/Day_1/Projects/artifacts/contracts",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/ethers/README.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/ethers/LICENSE.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/aes-js/README.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/ws/README.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/tslib/README.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/undici-types/README.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/@noble/curves/README.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/@adraffy/ens-normalize/README.md",
+    "Conversations_with_ASH/Day_1/Projects/wallet/requirements.md",
+    "Conversations_with_ASH/Day_1/Projects/simple_storage/requirements.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/secp256k1/node_modules/node-addon-api/tools/README.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/ethereumjs-util/node_modules/@types/bn.js/README.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/@nomicfoundation/ethereumjs-util/node_modules/ethereum-cryptography/README.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/@nomicfoundation/ethereumjs-tx/node_modules/ethereum-cryptography/README.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/wrap-ansi/node_modules/color-name/README.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/wrap-ansi/node_modules/color-convert/README.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/wrap-ansi/node_modules/color-convert/CHANGELOG.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/wrap-ansi/node_modules/ansi-styles/readme.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/best-practices/writing-tests.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/best-practices/proxy.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/best-practices/mocking-request.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/best-practices/client-certificate.md",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/assets/lifecycle-diagram.png",
+    "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/api/api-lifecycle.md",
     "Conversations_with_ASH/Day_1/Project_1/node_modules/undici/docs/assets/lifecycle-diagram.png",
     "Sources/Zero-To-Mastery/Pasted image 20241118101006.png",
     "Sources/Zero-To-Mastery/Pasted image 20241118101212.png",
