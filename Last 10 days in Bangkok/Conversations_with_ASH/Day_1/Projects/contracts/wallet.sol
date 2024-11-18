@@ -8,10 +8,10 @@ contract Wallet{
     uint256 public contractBalance;
     event Deposit(address sender, uint256 amount);
     event Withdrawal(address recipient, uint256 amount);
-    event transferOwnershipBegan(address oldOwner, address newOwner);
-    event transferOwnershipend(address newOwner);
-    event pauseSet(bool pauseState);
-    bool public pause = 0;
+    event TransferOwnershipBegan(address oldOwner, address newOwner);
+    event TransferOwnershipend(address newOwner);
+    event PauseSet(bool pauseState);
+    bool public pause = false;
 
     constructor(){
         owner = msg.sender;
@@ -24,26 +24,29 @@ contract Wallet{
 
     modifier onlyPendingOwner(){
         require(pendingOwner==msg.sender, "not the new Owner");
+        _;
     }
 
     modifier onlyUnPaused(){
-        require(pause==0, "Pause is set");
+        require(pause==false, "Pause is set");
+        _;
     }
     function setPause(bool pauseSetting) public onlyOwner{
         pause = pauseSetting;
-        emit pauseSet(pause);
+        emit PauseSet(pauseSetting);
     }
 
 
     function transferOwnership(address newOwner) public onlyOwner onlyUnPaused{
-        oldOwner = owner;
+        address oldOwner = owner;
         pendingOwner = newOwner;
-        emit transferOwnershipBegan(oldOwner, pendingOwner)
+        emit TransferOwnershipBegan(oldOwner, pendingOwner);
     }
 
     function acceptOwnership() public onlyPendingOwner onlyUnPaused{
-        owner = pendingOwner
-        emit transferOwnershipend(owner) 
+        owner = pendingOwner;
+        pendingOwner = address(0);
+        emit TransferOwnershipend(owner); 
     }
 
 
