@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "Conversations_with_ASH/Day_1/Day 1 - part 4 - expanding the wallet project.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -193,6 +193,7 @@
   },
   "active": "3f967d9b8a2966dc",
   "lastOpenFiles": [
+    "Conversations_with_ASH/Day_1/Projects/scripts/test_wallet.js",
     "Conversations_with_ASH/Day_1/ETH Wallet Contract.md",
     "Conversations_with_ASH/Day_1/Day 1 - part 4 - expanding the wallet project.md",
     "Conversations_with_ASH/Day_1/hardhat install instructions.md",
@@ -228,7 +229,6 @@
     "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/best-practices/writing-tests.md",
     "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/best-practices/proxy.md",
     "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/best-practices/mocking-request.md",
-    "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/best-practices/client-certificate.md",
     "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/assets/lifecycle-diagram.png",
     "Conversations_with_ASH/Day_1/Project_1/node_modules/undici/docs/assets/lifecycle-diagram.png",
     "Sources/Zero-To-Mastery/Pasted image 20241118101006.png",

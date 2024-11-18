@@ -58,7 +58,8 @@ contract Wallet{
     }
 
     function withdraw(uint256 amount) public onlyOwner onlyUnPaused{
-        require(contractBalance >= amount && accountBalances[msg.sender] >= amount, "Not enougth Eth");
+        require(contractBalance >= amount, "Not enough ETH in contract");
+        require(accountBalances[msg.sender] >= amount, "Not enough individual balance");
         contractBalance -= amount;
         accountBalances[msg.sender] -= amount;
         payable(msg.sender).transfer(amount);
