@@ -1,3 +1,4 @@
+.exit
   await tx.wait();
 const tx = await storage.setValue(9); // Replace 42 with any value > 10
 console.log("Owner address:", owner);
