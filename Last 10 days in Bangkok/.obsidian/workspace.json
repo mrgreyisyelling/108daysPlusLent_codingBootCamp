@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/Day 1 - part 4 - expanding the wallet project.md",
+                "file": "Conversations_with_ASH/Day_1/Day 1 - end of day.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 1 - part 4 - expanding the wallet project"
+              "title": "Day 1 - end of day"
             }
           }
         ],
@@ -100,13 +100,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "330accd35663ed10",
@@ -122,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/Day 1 - part 4 - expanding the wallet project.md",
+                "file": "Conversations_with_ASH/Day_1/Day 1 - end of day.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +130,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Day 1 - part 4 - expanding the wallet project"
+              "title": "Backlinks for Day 1 - end of day"
             }
           },
           {
@@ -141,12 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/Day 1 - part 4 - expanding the wallet project.md",
+                "file": "Conversations_with_ASH/Day_1/Day 1 - end of day.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Day 1 - part 4 - expanding the wallet project"
+              "title": "Outgoing links from Day 1 - end of day"
             }
           },
           {
@@ -168,10 +166,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/Day 1 - part 4 - expanding the wallet project.md"
+                "file": "Conversations_with_ASH/Day_1/Day 1 - end of day.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Day 1 - part 4 - expanding the wallet project"
+              "title": "Outline of Day 1 - end of day"
             }
           }
         ]
@@ -193,13 +191,17 @@
   },
   "active": "3f967d9b8a2966dc",
   "lastOpenFiles": [
+    "Conversations_with_ASH/Day_1/Day 1 - part 4 - expanding the wallet project.md",
+    "Conversations_with_ASH/Day_1/Day 1 - end of day.md",
+    "Conversations_with_ASH/Talking about how to proceed.md",
+    "Conversations_with_ASH/Day_1/Day 1 - basics - initial topics to discuss.md",
+    "Conversations_with_ASH/Day_1/syllabus/Day 1 - syllabus and projects.md",
+    "Conversations_with_ASH/Day_1/Day 1 - following ASH's plan.md",
     "Conversations_with_ASH/Day_1/Projects/scripts/test_wallet.js",
     "Conversations_with_ASH/Day_1/ETH Wallet Contract.md",
-    "Conversations_with_ASH/Day_1/Day 1 - part 4 - expanding the wallet project.md",
     "Conversations_with_ASH/Day_1/hardhat install instructions.md",
     "Conversations_with_ASH/Day_1/Projects/scripts/interact_wallet.js",
     "Conversations_with_ASH/Day_1/Projects/cache/console-history.txt",
-    "Conversations_with_ASH/Day_1/Day 1 - basics - initial topics to discuss.md",
     "Conversations_with_ASH/Day_1/Projects/cache/solidity-files-cache.json",
     "Conversations_with_ASH/Day_1/Projects/cache",
     "Conversations_with_ASH/Day_1/Projects/artifacts/contracts/wallet.sol/Wallet.json",
@@ -207,7 +209,6 @@
     "Conversations_with_ASH/Day_1/Projects/artifacts/contracts/SimpleStorage.sol/SimpleStorage.json",
     "Conversations_with_ASH/Day_1/Projects/artifacts/contracts/SimpleStorage.sol/SimpleStorage.dbg.json",
     "Conversations_with_ASH/Day_1/Projects/artifacts/contracts/wallet.sol",
-    "Conversations_with_ASH/Day_1/Projects/artifacts/contracts/SimpleStorage.sol",
     "Conversations_with_ASH/Day_1/Projects/node_modules/ethers/README.md",
     "Conversations_with_ASH/Day_1/Projects/node_modules/ethers/LICENSE.md",
     "Conversations_with_ASH/Day_1/Projects/node_modules/aes-js/README.md",
@@ -226,9 +227,6 @@
     "Conversations_with_ASH/Day_1/Projects/node_modules/wrap-ansi/node_modules/color-convert/README.md",
     "Conversations_with_ASH/Day_1/Projects/node_modules/wrap-ansi/node_modules/color-convert/CHANGELOG.md",
     "Conversations_with_ASH/Day_1/Projects/node_modules/wrap-ansi/node_modules/ansi-styles/readme.md",
-    "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/best-practices/writing-tests.md",
-    "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/best-practices/proxy.md",
-    "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/best-practices/mocking-request.md",
     "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/assets/lifecycle-diagram.png",
     "Conversations_with_ASH/Day_1/Project_1/node_modules/undici/docs/assets/lifecycle-diagram.png",
     "Sources/Zero-To-Mastery/Pasted image 20241118101006.png",
