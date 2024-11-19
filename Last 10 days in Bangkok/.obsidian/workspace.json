@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "e7895e2e8e3c897d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "36dd0dc0e4f82a78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sources/Metana/Solidity boot camp  details.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Solidity boot camp  details"
-            }
-          }
-        ]
-      },
-      {
         "id": "7875809be2e64f33",
         "type": "tabs",
         "children": [
@@ -47,26 +27,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day 2.4 - Planning next.md",
+                "file": "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day 2.5 - Planning Next v2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 2.4 - Planning next"
+              "title": "Day 2.5 - Planning Next v2"
             }
           },
           {
             "id": "ee718d35862f5056",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Project -Dynamic Token Allocation for DAO Governance.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Project -Dynamic Token Allocation for DAO Governance"
+            }
+          },
+          {
+            "id": "ef424affdacca7fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "**Lesson Plan-  DAOs and Governance**.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "**Lesson Plan-  DAOs and Governance**"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -207,10 +205,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "672ef07557cda0ba",
+  "active": "ee718d35862f5056",
   "lastOpenFiles": [
-    "Sources/alchemy university/Learn Ethereum Development (Free Course) - Alchemy U..pdf",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day 2.5 - Planning Next v2.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Project -Dynamic Token Allocation for DAO Governance.md",
+    "**Lesson Plan-  DAOs and Governance**.md",
     "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day 2.4 - Planning next.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Types of projects.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Advanced Blockchain Topics -1**.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/ZTM topics.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Advanced Blockchain Topics**.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/list of common **ERC (Ethereum Request for Comments)** token standards and their purposes.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**General Testing Types**.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Security and Vulnerability Issues in Smart Contracts**.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Tour of OpenZeppelin and Advanced Programming Patterns**.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Upgrade Patterns**.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Topics for Yul and Assembly Programming in Solidity**.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Topics Related to Public Signatures and Signature-Related Patterns**.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**List of DeFi Protocols**.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**List of Chainlink Technologies and Capabilities**.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**List of The Graph's Technologies and Capabilities**.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Outline of Blockchain DevOps**.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Important Topics in DAOs and Governance**.md",
+    "Sources/alchemy university/Learn Ethereum Development (Free Course) - Alchemy U..pdf",
     "Sources/Metana/Solidity boot camp  details.md",
     "Sources/Zero-To-Mastery/zero to mastery - solidity - classlist.md",
     "Conversations_with_ASH/Day_1/Notes/Talking about how to proceed.md",
@@ -226,26 +243,7 @@
     "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/attachments/Pasted image 20241119133004.png",
     "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/attachments",
     "Conversations_with_ASH/Day_2/projects/artifacts/build-info/7572a77dbe43027548dca7251dfdaf2b.json",
-    "Conversations_with_ASH/Day_2/projects/node_modules/@nomicfoundation/hardhat-ethers/node_modules",
     "Conversations_with_ASH/Day_2/projects/node_modules/lodash.isequal/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/@nomicfoundation/hardhat-ethers/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/chokidar/node_modules/readdirp/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/type-detect/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/ordinal/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/hardhat/node_modules/readdirp/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/get-func-name/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/ethers/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/ethers/LICENSE.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/@nomiclabs/hardhat-ethers/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/chai/node_modules/deep-eql/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/chai-as-promised/node_modules/check-error/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/@ethersproject/providers/node_modules/ws/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/chai-as-promised/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/bech32/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/@types/deep-eql/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/aes-js/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/@types/chai-as-promised/README.md",
-    "Conversations_with_ASH/Day_2/projects/node_modules/@types/chai/README.md",
     "Conversations_with_ASH/Day_2/projects/node_modules/undici/docs/assets/lifecycle-diagram.png",
     "Conversations_with_ASH/Day_2/node_modules/undici/docs/assets/lifecycle-diagram.png",
     "attachments/Pasted image 20241119085134.png",
