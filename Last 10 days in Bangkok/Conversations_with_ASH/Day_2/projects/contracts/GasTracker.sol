@@ -6,33 +6,33 @@ contract GasTracker{
     event GasUsed(string functionName, uint256 GasUsed);
 
     function gasHeavy(uint256 seedNumber) public {
-        unit256 gasStart = gasleft();
+        uint256 gasStart = gasleft();
 
         uint256 counter = 0;
         for (uint i = 0; i < seedNumber; i++) {
             counter += i+i+i;
         }
 
-        unit256 gasEnd = gasleft();
+        uint256 gasEnd = gasleft();
         emit GasUsed("gasHeavy", gasStart-gasEnd);
     }
 
-    function gasLight(uint256 seednumber) public{
-        unit256 gasStart = gasleft();
+    function gasLight(uint256 seedNumber) public{
+        uint256 gasStart = gasleft();
 
         seedNumber+seedNumber;
 
-        unit256 gasEnd = gasleft();
-        emit GasUsed("gasHeavy", gasStart-gasEnd);
+        uint256 gasEnd = gasleft();
+        emit GasUsed("gasLight", gasStart-gasEnd);
     }
 
-    function gasIntermediate(uint256 seednumber) public{
-        unit256 gasStart = gasleft();
+    function gasIntermediate(uint256 seedNumber) public{
+        uint256 gasStart = gasleft();
         
         seedNumber*seedNumber;
 
-        unit256 gasEnd = gasleft();
-        emit GasUsed("gasHeavy", gasStart-gasEnd);
+        uint256 gasEnd = gasleft();
+        emit GasUsed("gasIntermediate", gasStart-gasEnd);
     }
 
 

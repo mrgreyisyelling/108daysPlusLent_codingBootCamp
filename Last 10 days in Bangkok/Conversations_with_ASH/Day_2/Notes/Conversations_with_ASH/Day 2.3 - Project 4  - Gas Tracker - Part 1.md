@@ -180,4 +180,133 @@ contract GasTracker {
 3. **Analyze Gas Usage**:
    - Use the emitted events to understand the relationship between the complexity of operations and gas costs.
 
-Would you like guidance on writing the deployment and testing scripts?
+Would you like guidance on writing the deployment and testing scripts?\
+
+----
+---
+
+The `receipt.gasUsed.toString()` extracts the gas usage information for a transaction in your testing script. Here’s what it represents and how it’s used:
+
+### What is `receipt.gasUsed`?
+- When you execute a transaction on the blockchain, **gas** is consumed based on the computational complexity of the transaction.
+- After the transaction is mined, you can get a **transaction receipt**. This receipt contains metadata about the transaction, including the **amount of gas used**.
+
+### Breaking it Down:
+1. **Transaction Receipt**: 
+   - You obtain it after calling a function on the contract and waiting for the transaction to be mined:
+     ```javascript
+     const tx = await contract.gasHeavy(seedNumber); // Execute the transaction
+     const receipt = await tx.wait(); // Wait for the transaction receipt
+     ```
+
+2. **`gasUsed`**:
+   - A property of the receipt that gives the amount of gas consumed by the transaction:
+     ```javascript
+     console.log("Gas Used:", receipt.gasUsed.toString());
+     ```
+   - It returns a **BigNumber**, which is converted to a string for easy readability using `.toString()`.
+
+### Why Log `gasUsed`?
+- To measure and compare the gas efficiency of different functions in your contract.
+- Example: Comparing `gasHeavy`, `gasLight`, and `gasIntermediate` in your **GasTracker** contract.
+
+### Example in Context:
+```javascript
+const tx = await gasTracker.gasHeavy(1000); // Call gas-heavy function
+const receipt = await tx.wait(); // Get receipt after mining
+console.log("Gas Used for gasHeavy:", receipt.gasUsed.toString());
+```
+
+### Key Use:
+- Helps you analyze gas consumption for different operations, a critical part of writing cost-effective smart contracts.
+
+---
+----
+The contract you provided does indeed include gas measurement and emits events for the gas used in each function. However, there are a few issues with the code you've posted:
+
+### Issues in the Provided Code
+
+1. **Typographical Errors**:
+   - You wrote `unit256` instead of `uint256`. Solidity does not recognize `unit256`.
+
+2. **Event Emission Mistake**:
+   - In `gasLight` and `gasIntermediate`, you are emitting the event with `"gasHeavy"` instead of the corresponding function name. This can lead to confusion when interpreting results.
+
+3. **Unused or Missing Variables**:
+   - In `gasLight` and `gasIntermediate`, the `seednumber` variable is not properly used. Instead, the variable `seedNumber` is referred to, which may cause an undeclared variable error.
+
+4. **Gas Measurement Logic**:
+   - The logic for measuring gas usage is correctly placed, but the gas cost emitted may seem counterintuitive without context (e.g., overhead costs for function calls).
+
+---
+
+### Corrected Code
+
+Here’s an updated and corrected version of your contract:
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.27;
+
+contract GasTracker {
+    event GasUsed(string functionName, uint256 gasUsed);
+
+    function gasHeavy(uint256 seedNumber) public {
+        uint256 gasStart = gasleft();
+
+        uint256 counter = 0;
+        for (uint256 i = 0; i < seedNumber; i++) {
+            counter += i + i + i;
+        }
+
+        uint256 gasEnd = gasleft();
+        emit GasUsed("gasHeavy", gasStart - gasEnd);
+    }
+
+    function gasLight(uint256 seedNumber) public {
+        uint256 gasStart = gasleft();
+
+        uint256 result = seedNumber + seedNumber; // Simpler operation
+
+        uint256 gasEnd = gasleft();
+        emit GasUsed("gasLight", gasStart - gasEnd);
+    }
+
+    function gasIntermediate(uint256 seedNumber) public {
+        uint256 gasStart = gasleft();
+
+        uint256 result = seedNumber * seedNumber; // Intermediate operation
+
+        uint256 gasEnd = gasleft();
+        emit GasUsed("gasIntermediate", gasStart - gasEnd);
+    }
+}
+```
+
+---
+
+### Key Changes Made
+1. **Fixed Typographical Errors**:
+   - Changed `unit256` to `uint256`.
+
+2. **Correct Event Emission**:
+   - Updated event emission for `gasLight` and `gasIntermediate` to reflect their actual function names.
+
+3. **Consistent Use of Variables**:
+   - Ensured the same variable (`seedNumber`) is consistently used across all functions.
+
+4. **Gas Measurement Placement**:
+   - Kept the gas measurement logic intact but clarified the emitted event values.
+
+---
+
+### Next Steps
+1. **Testing**:
+   - Use your `deploy_gastracker.js` and `test_gastracker.js` scripts to deploy and test this contract.
+   - Ensure the emitted events match the expected gas usage for each function.
+
+2. **Analysis**:
+   - Compare the gas costs across the three functions to understand why they differ.
+
+3. **Improvement**:
+   - Consider adding a function to log the results in a more structured way if needed for further analysis.

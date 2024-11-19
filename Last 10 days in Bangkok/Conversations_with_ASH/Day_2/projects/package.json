@@ -14,7 +14,9 @@
   "scripts": {
     "test": "hardhat run scripts/test_votingSystem.js --network localhost",
     "deploy_VS": "hardhat run scripts/deploy_votingSystem.js --network localhost",
-    "node": "hardhat node"
+    "node": "hardhat node",
+    "test_gas": "hardhat run scripts/test_gasttracker.js --network localhost",
+    "deploy_gas": "hardhat run scripts/deploy_gastracker.js --network localhost"
   },
   "dependencies": {
     "dotenv": "^16.4.5"
