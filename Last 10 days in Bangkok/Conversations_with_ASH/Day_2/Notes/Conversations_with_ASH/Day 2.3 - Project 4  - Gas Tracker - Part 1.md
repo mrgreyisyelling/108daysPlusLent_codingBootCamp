@@ -97,3 +97,87 @@ function performIntermediateOperation() public;
 ---
 
 Let me know when you're ready to start coding! I’ll guide you step by step as you write the contract.
+
+
+------
+---
+To capture and emit gas-related information, you can leverage Solidity's `gasleft()` function. This function returns the amount of gas remaining in the current execution context. By recording the gas before and after running a function, you can calculate and emit the gas used.
+
+Here's how you can enhance your `GasTracker` contract to emit gas usage information:
+
+---
+
+### Updated Contract with Gas Tracking
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.27;
+
+contract GasTracker {
+    event GasUsed(string functionName, uint256 gasUsed);
+
+    function gasHeavy(uint256 seedNumber) public {
+        uint256 gasStart = gasleft();
+        
+        uint256 counter = 0;
+        for (uint256 i = 0; i < seedNumber; i++) {
+            counter += i + i + i;
+        }
+
+        uint256 gasEnd = gasleft();
+        emit GasUsed("gasHeavy", gasStart - gasEnd);
+    }
+
+    function gasLight(uint256 seedNumber) public {
+        uint256 gasStart = gasleft();
+        
+        uint256 result = seedNumber + seedNumber;
+
+        uint256 gasEnd = gasleft();
+        emit GasUsed("gasLight", gasStart - gasEnd);
+    }
+
+    function gasIntermediate(uint256 seedNumber) public {
+        uint256 gasStart = gasleft();
+        
+        uint256 result = seedNumber * seedNumber;
+
+        uint256 gasEnd = gasleft();
+        emit GasUsed("gasIntermediate", gasStart - gasEnd);
+    }
+}
+```
+
+---
+
+### Key Enhancements
+1. **Gas Tracking**:
+   - Record the gas at the start of the function (`gasStart`).
+   - Record the gas remaining at the end of the function (`gasEnd`).
+   - Calculate gas used as `gasStart - gasEnd`.
+
+2. **Emit Gas Usage**:
+   - Emit an event `GasUsed` with the function name and the gas used during execution.
+
+3. **Events**:
+   - Use the `GasUsed` event to log gas information for analysis.
+
+---
+
+### Next Steps
+1. **Deploy the Contract**:
+   - Deploy the contract to a local Hardhat node.
+
+2. **Test the Functions**:
+   - Write a script to call each function with varying input sizes (`seedNumber`) and observe the emitted gas usage events.
+   - Example test inputs:
+     - `gasHeavy(10)`
+     - `gasHeavy(1000)`
+     - `gasHeavy(100000)`
+     - `gasLight(100)`
+     - `gasIntermediate(100)`
+
+3. **Analyze Gas Usage**:
+   - Use the emitted events to understand the relationship between the complexity of operations and gas costs.
+
+Would you like guidance on writing the deployment and testing scripts?

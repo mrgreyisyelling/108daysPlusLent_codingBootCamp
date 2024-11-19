@@ -18,21 +18,22 @@ async function main() {
     console.log("Test Gas Light");
     seedNumber = 25;
     tx = await gasTracker.gasLight(seedNumber);
-    await tx.wait();
-    
+    receipt = await tx.wait();
+    console.log("Test Gas Light::Gas Used::", receipt.gasUsed.toString());
 
     // test gasIntermediate
     console.log("Test Gas Intermediate");
     seedNumber = 25;
     tx = await gasTracker.gasIntermediate(seedNumber);
-    await tx.wait();
+    receipt = await tx.wait();
+    console.log("Test Gas Intermediate::Gas Used::", receipt.gasUsed.toString());
 
     // test gasHeavy
     console.log("Test Gas Heavy");
     seedNumber = 25;
     tx = await gasTracker.gasHeavy(seedNumber);
-    await tx.wait();
-   
+    receipt = await tx.wait();
+    console.log("Test Gas Heavy::Gas Used::", receipt.gasUsed.toString());
 }
 
 main()
