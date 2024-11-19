@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/mike/Documents/Development_space/Self_Training_with_the_AI/Last 10 days in Bangkok/Conversations_with_ASH/Day_2/projects/contracts/VotingSystem.sol": {
+      "lastModificationDate": 1731997687870,
+      "contentHash": "c982a740035a6af18f6aec6f27c9c36b",
+      "sourceName": "contracts/VotingSystem.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.27"
+      ],
+      "artifacts": [
+        "VotingSystem"
+      ]
+    }
+  }
+}

@@ -18,7 +18,7 @@ mapping (uint256 => uint256) public proposalVotes;
 mapping (address => mapping(uint256 => bool))  public voterVotes;
 mapping (uint256 => string) public proposalDescription;
 address public owner;
-uint256 proposalCount;
+uint256 public proposalCount;
 
 event ProposalCreated(uint proposalID, string description);
 event VoteCast(address voter, uint proposalID);
@@ -42,9 +42,9 @@ function createProposal(string memory description) public onlyOwner{ //Why memor
 
 function castVote(uint256 proposalID) public{
     require(proposalID <= proposalCount, "Proposal Doesn't Exist");
-    require(bytes(proposalDescription[proposalID].length > 0, "Proposal Doesn't Exxist")); // why use bytes?
+    require(bytes(proposalDescription[proposalID]).length > 0, "Proposal Doesn't Exxist"); // why use bytes?
     require(!voterVotes[msg.sender][proposalID], "Voter has Voted already");
-    voterVotes[msg.sender][proposalID] = True;
+    voterVotes[msg.sender][proposalID] = true;
     proposalVotes[proposalID] += 1;    
     emit VoteCast(msg.sender, proposalID);
 }

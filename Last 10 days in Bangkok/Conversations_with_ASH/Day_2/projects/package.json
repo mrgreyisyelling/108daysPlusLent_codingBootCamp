@@ -1,0 +1,22 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "chai": "^5.1.2",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.22.16",
+    "mocha": "^10.8.2"
+  },
+  "scripts": {
+    "test": "hardhat run scripts/test_votingSystem.js --network localhost",
+    "deploy_VS": "hardhat run scripts/deploy_votingSystem.js --network localhost",
+    "node": "hardhat node"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
