@@ -180,6 +180,8 @@
   },
   "active": "672ef07557cda0ba",
   "lastOpenFiles": [
+    "Conversations_with_ASH/Day_2/projects/scripts/test_gasttracker.js",
+    "Conversations_with_ASH/Day_2/projects/scripts/deploy_gastracker.js",
     "Conversations_with_ASH/Day_2/projects/contracts/GasTracker.sol",
     "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day2.2 - Project 3 - Voting System - Part 1.md",
     "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day 2.3 - Project 4  - Gas Tracker - Part 1.md",
@@ -192,8 +194,6 @@
     "Conversations_with_ASH/Day_2/projects/node_modules/@nomicfoundation/hardhat-ethers/src/internal/helpers.ts",
     "Conversations_with_ASH/Day_2/projects/node_modules/@nomicfoundation/hardhat-ethers/src/internal/index.ts",
     "Conversations_with_ASH/Day_2/projects/node_modules/@nomicfoundation/hardhat-ethers/src/internal/hardhat-ethers-provider.ts",
-    "Conversations_with_ASH/Day_2/projects/node_modules/@nomicfoundation/hardhat-ethers/src/internal/ethers-utils.ts",
-    "Conversations_with_ASH/Day_2/projects/node_modules/@nomicfoundation/hardhat-ethers/src/internal/errors.ts",
     "Conversations_with_ASH/Day_2/projects/node_modules/lodash.isequal/README.md",
     "Conversations_with_ASH/Day_2/projects/node_modules/@nomicfoundation/hardhat-ethers/README.md",
     "Conversations_with_ASH/Day_2/projects/node_modules/chokidar/node_modules/readdirp/README.md",
