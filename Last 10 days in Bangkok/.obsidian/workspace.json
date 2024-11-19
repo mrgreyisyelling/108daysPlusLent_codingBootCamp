@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conversations_with_ASH/Day_1/Notes/Day 1 - end of day.md",
+                "file": "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day2.2 - Project 3 - Voting System - Part 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 1 - end of day"
+              "title": "Day2.2 - Project 3 - Voting System - Part 1"
             }
           }
         ],
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 531.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "330accd35663ed10",
@@ -179,6 +180,14 @@
   },
   "active": "672ef07557cda0ba",
   "lastOpenFiles": [
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day 2 .1 - starting.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day2.2 - Project 3 - Voting System - Part 1.md",
+    "Conversations_with_ASH/Day_1/Notes/Course list.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH",
+    "Conversations_with_ASH/Day_2/projects",
+    "Conversations_with_ASH/Day_2/Notes",
+    "Conversations_with_ASH/Day_2",
+    "Conversations_with_ASH/Day_1/Notes/Day 1 - end of day.md",
     "Things to read and watch.md",
     "Sources/uniswap/whitepaper-v3.pdf",
     "Sources/uniswap",
@@ -189,20 +198,15 @@
     "Sources/alchemy university/Learn JavaScript for Ethereum (Free Course) - Alchemy U..pdf",
     "Sources/alchemy university/Learn Ethereum Development (Free Course) - Alchemy U..pdf",
     "Sources/alchemy university/Learn Soldity Syntax (Free Course) - Alchemy University.pdf",
-    "Sources/alchemy university",
     "Conversations_with_ASH/Day_1/Notes/attachments/Pasted image 20241118222028.png",
-    "Conversations_with_ASH/Day_1/Notes/attachments",
     "Sources/Zero-To-Mastery/Pasted image 20241118101006.png",
     "Conversations_with_ASH/Day_1/Day 1 - end of day.md",
     "Conversations_with_ASH/Day_1/Notes/hardhat install instructions.md",
     "Conversations_with_ASH/Day_1/Notes/ETH Wallet Contract.md",
     "Conversations_with_ASH/Day_1/Notes/Day 1 - part 4 - expanding the wallet project.md",
     "Conversations_with_ASH/Day_1/Notes/Day 1 - following ASH's plan.md",
-    "Conversations_with_ASH/Day_1/Notes/Day 1 - end of day.md",
     "Conversations_with_ASH/Day_1/Notes/Day 1 - basics - initial topics to discuss.md",
     "Conversations_with_ASH/Day_1/Notes/syllabus/Day 1 - syllabus and projects.md",
-    "Conversations_with_ASH/Day_1/Notes/syllabus",
-    "Conversations_with_ASH/Day_1/Notes",
     "Conversations_with_ASH/Day_1/Day 1 - part 4 - expanding the wallet project.md",
     "Conversations_with_ASH/Talking about how to proceed.md",
     "Conversations_with_ASH/Day_1/Day 1 - basics - initial topics to discuss.md",
@@ -216,9 +220,6 @@
     "Conversations_with_ASH/Day_1/Projects/node_modules/ws/README.md",
     "Conversations_with_ASH/Day_1/Projects/node_modules/tslib/README.md",
     "Conversations_with_ASH/Day_1/Projects/node_modules/undici-types/README.md",
-    "Conversations_with_ASH/Day_1/Projects/node_modules/@noble/curves/README.md",
-    "Conversations_with_ASH/Day_1/Projects/node_modules/@adraffy/ens-normalize/README.md",
-    "Conversations_with_ASH/Day_1/Projects/wallet/requirements.md",
     "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/assets/lifecycle-diagram.png",
     "Conversations_with_ASH/Day_1/Project_1/node_modules/undici/docs/assets/lifecycle-diagram.png",
     "Sources/Zero-To-Mastery/Pasted image 20241118101212.png",
