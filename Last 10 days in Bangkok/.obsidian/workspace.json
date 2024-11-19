@@ -50,6 +50,18 @@
             }
           },
           {
+            "id": "8e4ad5fa0485c2cd",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Conversations_with_ASH/Day_3/Data_flow_project/Description/Full data flow diagram.excalidraw"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Full data flow diagram"
+            }
+          },
+          {
             "id": "ef424affdacca7fc",
             "type": "leaf",
             "state": {
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -120,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 780.5
+    "width": 360.5004348754883
   },
   "right": {
     "id": "330accd35663ed10",
@@ -202,13 +214,29 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ee718d35862f5056",
+  "active": "8e4ad5fa0485c2cd",
   "lastOpenFiles": [
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day 2.5 - Planning Next v2.md",
+    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Movement of finished AI2 product into market place and the purchase payback up the chain.png",
+    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Focus on data being abstracted into Ai2 creative structure.png",
+    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Focus on raw data being moved into the information stager and cleaner.png",
+    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Focus on blockchain giving access to the data.png",
+    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Focus on data being referenced by blockchain and being read.png",
+    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Focus on local data organization.png",
+    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Full data flow diagram.png",
+    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Full data flow diagram.excalidraw",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Speaking to the project creator about data pipeline.md",
+    "Conversations_with_ASH/Day_3/Data_flow_project/Description",
+    "Conversations_with_ASH/Day_3/Data_flow_project",
+    "Conversations_with_ASH/Day_3",
+    "Planning/2024-11-19 - Bootcamp Planning Document.md",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Untitled.md",
     "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Project -Dynamic Token Allocation for DAO Governance.md",
+    "Planning",
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day 2.5 - Planning Next v2.md",
     "**Lesson Plan-  DAOs and Governance**.md",
     "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day 2.4 - Planning next.md",
     "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Types of projects.md",
@@ -230,28 +258,13 @@
     "Sources/alchemy university/Learn Ethereum Development (Free Course) - Alchemy U..pdf",
     "Sources/Metana/Solidity boot camp  details.md",
     "Sources/Zero-To-Mastery/zero to mastery - solidity - classlist.md",
-    "Conversations_with_ASH/Day_1/Notes/Talking about how to proceed.md",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day 2.3 - Project 4  - Gas Tracker - Part 1.md",
     "Conversations_with_ASH/Day_2/projects/artifacts/contracts/GasTracker.sol/GasTracker.json",
     "Conversations_with_ASH/Day_2/projects/artifacts/contracts/GasTracker.sol/GasTracker.dbg.json",
     "Conversations_with_ASH/Day_2/projects/artifacts/contracts/GasTracker.sol",
     "Conversations_with_ASH/Day_2/projects/artifacts/build-info/4ef9b0199dc02de6a2d09723f2b00508.json",
-    "Conversations_with_ASH/Day_2/projects/scripts/test_gasttracker.js",
-    "Conversations_with_ASH/Day_2/projects/scripts/deploy_gastracker.js",
-    "Conversations_with_ASH/Day_2/projects/contracts/GasTracker.sol",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day2.2 - Project 3 - Voting System - Part 1.md",
     "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/attachments/Pasted image 20241119133004.png",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/attachments",
-    "Conversations_with_ASH/Day_2/projects/artifacts/build-info/7572a77dbe43027548dca7251dfdaf2b.json",
-    "Conversations_with_ASH/Day_2/projects/node_modules/lodash.isequal/README.md",
     "Conversations_with_ASH/Day_2/projects/node_modules/undici/docs/assets/lifecycle-diagram.png",
     "Conversations_with_ASH/Day_2/node_modules/undici/docs/assets/lifecycle-diagram.png",
-    "attachments/Pasted image 20241119085134.png",
-    "attachments/Pasted image 20241119082602.png",
-    "Conversations_with_ASH/Day_1/Notes/attachments/Pasted image 20241118222028.png",
-    "Sources/Zero-To-Mastery/Pasted image 20241118101006.png",
-    "Conversations_with_ASH/Day_1/Projects/node_modules/undici/docs/assets/lifecycle-diagram.png",
-    "Conversations_with_ASH/Day_1/Project_1/node_modules/undici/docs/assets/lifecycle-diagram.png",
-    "Sources/Zero-To-Mastery/Pasted image 20241118101212.png"
+    "attachments/Pasted image 20241119085134.png"
   ]
 }
