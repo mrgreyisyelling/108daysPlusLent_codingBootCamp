@@ -79,3 +79,45 @@ https://www.damnvulnerabledefi.xyz/
 [Solidity, Ethereum and Blockchain: The Complete Developer's Guide](https://academy.zerotomastery.io/courses/enrolled/1676407)
 [[zero to mastery - solidity - classlist]]
 
+-------------------
+
+
+https://docs.alchemy.com/docs/tutorials-overview
+
+https://technews180.com/blog/trends-web3/
+
+https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/
+https://ethereum.org/en/developers/learning-tools/
+https://ethereum.org/en/community/grants/
+https://ethereum.org/en/developers/tutorials/
+
+
+
+https://docs.openzeppelin.com/learn/
+
+
+https://x.com/austingriffith/status/1478760479275175940
+
+![[Pasted image 20241119082602.png]]
+
+https://mikebifulco.com/
+
+https://learnweb3.io/degrees/
+https://learnweb3.io/courses/account-abstraction-course/
+https://learnweb3.io/courses/full-stack-fuel-course/
+https://learnweb3.io/courses/flow-course/
+https://learnweb3.io/degrees/ethereum-developer-degree/
+https://learnweb3.io/degrees/stacks-developer-degree/
+https://www.freecodecamp.org/news/tag/blockchain/
+
+https://www.freecodecamp.org/news/every-blockchain-developer-should-know-these-web3-and-metamask-use-cases-7f93c1f139b1/
+
+https://www.web3.university/tracks/road-to-web3
+
+![[Pasted image 20241119085134.png]]
+
+https://ethglobal.com/guides
+
+https://solidity-by-example.org/
+
+https://www.reddit.com/r/ethdev/comments/s008yl/comment/hrzc7h9/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
