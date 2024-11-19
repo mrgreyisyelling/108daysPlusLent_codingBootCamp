@@ -1,7 +1,7 @@
 //SP
 pragma solidity ^0.8.27;
 
-contract VotingSystem(){
+contract VotingSystem{
 
 // track proposals
 // track vote participation
@@ -14,36 +14,42 @@ contract VotingSystem(){
 // proposalCreated
 // VoteCast
 
-mapping ProposalVotes(uint256 => uint256) public;
-mapping VoterVotes(address => mapping(uint => bool)) public;
-mapping ProposalDescription(uint => string) public;
-address owner public;
-uint proposalCount public;
+mapping (uint256 => uint256) public proposalVotes;
+mapping (address => mapping(uint256 => bool))  public voterVotes;
+mapping (uint256 => string) public proposalDescription;
+address public owner;
+uint256 proposalCount;
 
-event ProposalCreated(uint ProposalID, string Description);
-event VoteCast(address Voter, uint ProposalID);
+event ProposalCreated(uint proposalID, string description);
+event VoteCast(address voter, uint proposalID);
+
+constructor(){
+    owner = msg.sender;
+    proposalCount =0;
+}
 
 modifier onlyOwner() {
     require(msg.sender == owner, "not the owner");
     _;
 }
 
-function createProposal(string Description) public onlyOwner{
+function createProposal(string memory description) public onlyOwner{ //Why memory?
     proposalCount += 1;
-    ProposalVotes[proposalCount] = 0;
-    ProposalDescription[proposalCount] = Description;
-    emit ProposalCreated(proposalCount, Description);
+    proposalVotes[proposalCount] = 0;
+    proposalDescription[proposalCount] = description;
+    emit ProposalCreated(proposalCount, description);
 }
 
-function castVote(uint ProposalID) public{
-    require(ProposalID <= proposalCount, "Proposal Doesn't Exist");
-    require(ProposalDescription[ProposalID] != Null, "Proposal Doesn't Exxist");
-    require(VoterVotes[msg.sender][ProposalID] == False, "Voter has Voted already");
-    VoterVotes[msg.sender][ProposalID] = True;
-    ProposalVotes[ProposalID] += 1;    
-    emit VoteCast(msg.sender, ProposalID);
+function castVote(uint256 proposalID) public{
+    require(proposalID <= proposalCount, "Proposal Doesn't Exist");
+    require(bytes(proposalDescription[proposalID].length > 0, "Proposal Doesn't Exxist")); // why use bytes?
+    require(!voterVotes[msg.sender][proposalID], "Voter has Voted already");
+    voterVotes[msg.sender][proposalID] = True;
+    proposalVotes[proposalID] += 1;    
+    emit VoteCast(msg.sender, proposalID);
 }
 
-function getVotes(uint ProposalID) public returns(uint256){
-    return ProposalVotes[ProposalID]
+function getVotes(uint proposalID) public view returns(uint256){
+    return proposalVotes[proposalID];
+}
 }
