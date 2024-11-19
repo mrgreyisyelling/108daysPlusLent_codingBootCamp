@@ -310,3 +310,57 @@ contract GasTracker {
 
 3. **Improvement**:
    - Consider adding a function to log the results in a more structured way if needed for further analysis.
+- ----
+----
+Great work! 🎉 Your `GasTracker` contract and test script are functioning correctly, and you now have real gas usage metrics for the three functions:
+
+- **Gas Light**: 24,176
+- **Gas Intermediate**: 24,262
+- **Gas Heavy**: 39,698
+
+### Observations:
+1. **Gas Usage Trends**:
+   - `gasLight`: This is the simplest operation, consuming the least gas.
+   - `gasIntermediate`: Slightly more gas is used due to multiplication, which is computationally heavier than addition.
+   - `gasHeavy`: Significantly higher gas usage, as it includes a loop with multiple operations inside.
+
+2. **Understanding the Gas Costs**:
+   - Each function has a base gas cost (for initiating and completing the transaction).
+   - Computational costs are added for each operation (e.g., addition, multiplication) or loop iteration.
+
+3. **Practical Insight**:
+   - The loop in `gasHeavy` scales linearly with the `seedNumber` input, so larger inputs will lead to even higher gas costs.
+   - Simple arithmetic operations like addition and multiplication incur much lower costs compared to iterative operations.
+
+---
+
+### What’s Next?
+1. **Optimization**:
+   - Try experimenting with different implementations of the `gasHeavy` function. For instance, replacing the loop with a formula could dramatically reduce gas costs.
+
+     Example:
+     ```solidity
+     counter = seedNumber * (seedNumber + 1) / 2; // Sum of the first N natural numbers
+     ```
+
+   - This eliminates the loop entirely and reduces gas consumption.
+
+2. **Extend Functionality**:
+   - Add a way to track historical gas usage for each function.
+   - Create a function to return the gas usage of the last execution.
+
+3. **Compare Real-World Costs**:
+   - Deploy the contract to a testnet (e.g., Goerli or Sepolia).
+   - Compare the actual gas costs in ETH (or gwei) for running these functions on-chain.
+
+4. **Documentation**:
+   - Add detailed comments to your contract and test scripts to explain your findings.
+   - Share your insights in a blog post or documentation for future reference.
+
+If you’re ready, we can either explore optimization or move on to the next project!
+
+
+----
+---
+[[Day 2.4 - Planning next]]
+
