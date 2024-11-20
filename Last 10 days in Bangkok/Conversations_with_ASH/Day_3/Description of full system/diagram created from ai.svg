@@ -1,0 +1,42 @@
+digraph {
+    rankdir=LR
+    size="12"
+
+    DAO [label="DAO Development", shape=ellipse, style=filled, color=lightblue]
+    APP [label="Application Development", shape=ellipse, style=filled, color=lightgreen]
+    MLOps [label="MLOps Pipeline", shape=ellipse, style=filled, color=lightcoral]
+    DATA [label="Data Market Integration", shape=ellipse, style=filled, color=gold]
+    PRODUCT [label="Specialized Data Products", shape=ellipse, style=filled, color=violet]
+
+    DAO1 [label="Governance and Structure"]
+    DAO2 [label="Real Estate Sale Integration"]
+    DAO -> DAO1
+    DAO -> DAO2
+
+    APP1 [label="Mobile/Web App"]
+    APP2 [label="Remote Data Storage"]
+    APP -> APP1
+    APP -> APP2
+
+    MLOps1 [label="Data Preparation & Modeling"]
+    MLOps2 [label="Model Deployment"]
+    MLOps3 [label="Data Product Packaging"]
+    MLOps -> MLOps1
+    MLOps -> MLOps2
+    MLOps -> MLOps3
+
+    DATA1 [label="Blockchain Storage"]
+    DATA2 [label="Marketplace Interface"]
+    DATA -> DATA1
+    DATA -> DATA2
+
+    PRODUCT1 [label="Haunted House Data Product"]
+    PRODUCT2 [label="MUD (Interactive Haunted House)"]
+    PRODUCT -> PRODUCT1
+    PRODUCT -> PRODUCT2
+
+    DAO -> APP [label="Data Governance & Collection"]
+    APP -> MLOps [label="Data Integration"]
+    MLOps -> DATA [label="Product Publication"]
+    DATA -> PRODUCT [label="Specialized Use Cases"]
+}
