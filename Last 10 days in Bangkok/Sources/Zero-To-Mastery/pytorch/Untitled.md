@@ -45,6 +45,9 @@
 10. How To and How Not To Approach This Course (5:09)
 11. Important Resources For This Course (5:21)
 12. Getting Setup to Write PyTorch Code (7:39)
+    
+    - colabsetup
+    
 13. Introduction to PyTorch Tensors (13:24)
 14. Creating Random Tensors in PyTorch (9:58)
 15. Creating Tensors With Zeros and Ones in PyTorch (3:08)
