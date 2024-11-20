@@ -53,12 +53,14 @@
             "id": "8e4ad5fa0485c2cd",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Conversations_with_ASH/Day_3/Data_flow_project/Description/Full data flow diagram.excalidraw"
+                "file": "Sources/Zero-To-Mastery/pytorch/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Full data flow diagram"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           },
           {
@@ -220,14 +222,21 @@
   },
   "active": "8e4ad5fa0485c2cd",
   "lastOpenFiles": [
-    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Movement of finished AI2 product into market place and the purchase payback up the chain.png",
-    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Focus on data being abstracted into Ai2 creative structure.png",
-    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Focus on raw data being moved into the information stager and cleaner.png",
-    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Focus on blockchain giving access to the data.png",
-    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Focus on data being referenced by blockchain and being read.png",
-    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Focus on local data organization.png",
-    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Full data flow diagram.png",
+    "Sources/Zero-To-Mastery/pytorch/attachments/Pasted image 20241120112019.png",
+    "Sources/Zero-To-Mastery/pytorch/attachments/Pasted image 20241120112013.png",
+    "Sources/Zero-To-Mastery/pytorch/attachments/Pasted image 20241120112001.png",
+    "Sources/Zero-To-Mastery/pytorch/attachments/Pasted image 20241120111945.png",
+    "Sources/Zero-To-Mastery/pytorch/attachments/Pasted image 20241120111934.png",
+    "Sources/Zero-To-Mastery/pytorch/attachments/Pasted image 20241120111921.png",
+    "Sources/Zero-To-Mastery/pytorch/attachments/Pasted image 20241120111906.png",
+    "Sources/Zero-To-Mastery/pytorch/attachments/Pasted image 20241120111847.png",
+    "Sources/Zero-To-Mastery/pytorch/attachments/Pasted image 20241120111833.png",
+    "Sources/Zero-To-Mastery/pytorch/attachments/Pasted image 20241120111819.png",
+    "Sources/Zero-To-Mastery/pytorch/attachments/Pasted image 20241120111807.png",
+    "Sources/Zero-To-Mastery/pytorch/attachments",
     "Conversations_with_ASH/Day_3/Data_flow_project/Description/Full data flow diagram.excalidraw",
+    "Sources/Zero-To-Mastery/pytorch/Untitled.md",
+    "Sources/Zero-To-Mastery/pytorch",
     "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Speaking to the project creator about data pipeline.md",
     "Conversations_with_ASH/Day_3/Data_flow_project/Description",
     "Conversations_with_ASH/Day_3/Data_flow_project",
@@ -257,14 +266,7 @@
     "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Important Topics in DAOs and Governance**.md",
     "Sources/alchemy university/Learn Ethereum Development (Free Course) - Alchemy U..pdf",
     "Sources/Metana/Solidity boot camp  details.md",
-    "Sources/Zero-To-Mastery/zero to mastery - solidity - classlist.md",
     "Conversations_with_ASH/Day_2/projects/artifacts/contracts/GasTracker.sol/GasTracker.json",
-    "Conversations_with_ASH/Day_2/projects/artifacts/contracts/GasTracker.sol/GasTracker.dbg.json",
-    "Conversations_with_ASH/Day_2/projects/artifacts/contracts/GasTracker.sol",
-    "Conversations_with_ASH/Day_2/projects/artifacts/build-info/4ef9b0199dc02de6a2d09723f2b00508.json",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/attachments/Pasted image 20241119133004.png",
-    "Conversations_with_ASH/Day_2/projects/node_modules/undici/docs/assets/lifecycle-diagram.png",
-    "Conversations_with_ASH/Day_2/node_modules/undici/docs/assets/lifecycle-diagram.png",
-    "attachments/Pasted image 20241119085134.png"
+    "Conversations_with_ASH/Day_2/projects/artifacts/contracts/GasTracker.sol/GasTracker.dbg.json"
   ]
 }
