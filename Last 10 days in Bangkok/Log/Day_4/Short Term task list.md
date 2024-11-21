@@ -1,0 +1,2 @@
+- set up and practice a machine learning task channel
+- set up and practice a web3 channel

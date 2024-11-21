@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Log/Day_4/Development channels.md",
+                "file": "Todo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Development channels"
+              "title": "Todo"
             }
           }
         ]
@@ -115,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5004348754883
+    "width": 200
   },
   "right": {
     "id": "330accd35663ed10",
@@ -204,6 +204,8 @@
   },
   "active": "63238fa17279d487",
   "lastOpenFiles": [
+    "Untitled",
+    "Log/Day_4/Short Term task list.md",
     "Log/Day_4/Development channels.md",
     "Log/Day_4/Overview of the plan.canvas",
     "Log/Day_4/Scope_of_project.excalidraw.md",
@@ -248,8 +250,6 @@
     "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Advanced Blockchain Topics**.md",
     "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/list of common **ERC (Ethereum Request for Comments)** token standards and their purposes.md",
     "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**General Testing Types**.md",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Security and Vulnerability Issues in Smart Contracts**.md",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Tour of OpenZeppelin and Advanced Programming Patterns**.md",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Upgrade Patterns**.md"
+    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Security and Vulnerability Issues in Smart Contracts**.md"
   ]
 }
