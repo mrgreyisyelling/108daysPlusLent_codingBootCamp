@@ -57,6 +57,21 @@ test_data = datasets.FashionMNIST(
 # 100%|##########| 5.15k/5.15k [00:00<00:00, 33.8MB/s]
 # Extracting data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz to data/FashionMNIST/raw
 
+# batch_size = 64
+
+# train_dataloader = DataLoader(training_data, bath_size=batch_size)
+# test_dataloader = DataLoader(test_data, batch_size=batch_size)
+
+# for X, y in test_dataloader:
+#     print(f"Shape of X [N, C, H, W]: {X.shape}")
+#     print(f"Shape of y: {y.shape} {y.dtype}")
+#     break
+
+# # Shape of X [N, C, H, W]: torch.Size([64, 1, 28, 28])
+# # Shape of y: torch.Size([64]) torch.int64
+
+
+
 
 labels_map= {
     0: "T-shirt",

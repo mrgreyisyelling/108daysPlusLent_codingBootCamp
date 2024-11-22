@@ -27,16 +27,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Log/Day_4/LongTermPlanning.md",
+                "file": "Overview of topics on Blockchain/**Upgrade Patterns**.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LongTermPlanning"
+              "title": "**Upgrade Patterns**"
+            }
+          },
+          {
+            "id": "a221be8abc4114f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Overview of topics on Blockchain/list of common **ERC (Ethereum Request for Comments)** token standards and their purposes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "list of common **ERC (Ethereum Request for Comments)** token standards and their purposes"
+            }
+          },
+          {
+            "id": "84277fd08dc64087",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Log/Day_4/blockchain focus of topics/Overview of AI blockchain.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Overview of AI blockchain"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -92,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 461.5004348754883
   },
   "right": {
     "id": "330accd35663ed10",
@@ -180,54 +207,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d3164736f354a9a5",
+  "active": "84277fd08dc64087",
   "lastOpenFiles": [
-    "Log/Day_4/Development channels.md",
-    "Log/Day_4/LongTermPlanning.md",
+    "Log/Day_4/blockchain focus of topics/Overview of Marketplaces.md",
+    "Log/Day_4/blockchain focus of topics/Overview of AI blockchain.md",
     "Log/Day_4/Short Term task list.md",
-    "Log/Day_4/Scope_of_project.excalidraw.md",
-    "Todo.md",
-    "Untitled",
+    "Log/Day_4/LongTermPlanning.md",
+    "Log/Day_4/Development channels.md",
+    "Log/Day_4/blockchain focus of topics/Overview of Daos.md",
+    "Log/Day_2/Notes/Conversations_with_ASH/Day2.2 - Project 3 - Voting System - Part 1.md",
+    "Log/Day_4/blockchain focus of topics",
+    "Log/Day_2/Notes/Conversations_with_ASH/Day 2.4 - Planning next.md",
+    "Log/Day_2/Notes/Conversations_with_ASH/Day 2.5 - Planning Next v2.md",
+    "Log/Day_2/Notes/Conversations_with_ASH/Day 2 .1 - starting.md",
+    "Log/Day_2/Notes/Conversations_with_ASH/Project -Dynamic Token Allocation for DAO Governance.md",
+    "Log/Day_2/Notes/Conversations_with_ASH/Speaking to the project creator about data pipeline.md",
+    "Log/Day_2/Notes/Conversations_with_ASH/Untitled.md",
+    "Log/Day_2/Notes/Conversations_with_ASH/ZTM topics.md",
+    "Overview of topics on Blockchain/Types of projects.md",
+    "Overview of topics on Blockchain/**Upgrade Patterns**.md",
+    "Overview of topics on Blockchain/list of common **ERC (Ethereum Request for Comments)** token standards and their purposes.md",
+    "Overview of topics on Blockchain/**Advanced Blockchain Topics -1**.md",
+    "Overview of topics on Blockchain",
+    "Overview of topics on Blockchain/**General Testing Types**.md",
+    "Overview of topics on Blockchain/**Advanced Blockchain Topics**.md",
+    "Log/Day_3/Data_flow_project/Description/Movement of finished AI2 product into market place and the purchase payback up the chain.png",
+    "Log/Day_3/Data_flow_project/Description/Full data flow diagram.png",
+    "Log/Day_3/Data_flow_project/Description/Full data flow diagram.excalidraw",
+    "Log/Day_3/Data_flow_project/Description/Focus on raw data being moved into the information stager and cleaner.png",
+    "Log/Day_3/Data_flow_project/Description/Focus on local data organization.png",
+    "Log/Day_3/Data_flow_project/Description/Focus on data being referenced by blockchain and being read.png",
+    "Log/Day_3/Data_flow_project/Description/Focus on data being abstracted into Ai2 creative structure.png",
+    "Log/Day_3/Data_flow_project/Description/Focus on blockchain giving access to the data.png",
+    "Log/Day_3/Description of full system/diagram created from ai.svg",
     "Log/Day_4/Overview of the plan.canvas",
+    "Log/Day_4/Scope_of_project.excalidraw.md",
+    "Planning/2024-11-19 - Bootcamp Planning Document.md",
+    "Planning/**Lesson Plan-  DAOs and Governance**.md",
+    "Planning/Things to read and watch.md",
+    "Planning/Sources/GRL_Book.pdf",
+    "Todo.md",
     "Log/Day_4/Scope_of_project.excalidraw",
     "Excalidraw/Drawing 2024-11-21 10.14.55.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-21 10.10.30.excalidraw.md",
     "Excalidraw",
     "Conversations_with_ASH/Day_3/Description of full system/diagram created from ai.svg",
     "Conversations_with_ASH/Day_3/Description of full system",
-    "Sources/Zero-To-Mastery/pytorch/Untitled.md",
-    "Sources/Zero-To-Mastery/pytorch/Notes.md",
-    "**Lesson Plan-  DAOs and Governance**.md",
-    "Sources/Zero-To-Mastery/pytorch/Untitled 1.md",
-    "Sources/Zero-To-Mastery/SAge maker/Untitled.md",
     "Sources/Zero-To-Mastery/SAge maker/attachments/Pasted image 20241120120437.png",
-    "Sources/Zero-To-Mastery/SAge maker/attachments/Pasted image 20241120120431.png",
-    "Sources/Zero-To-Mastery/SAge maker/attachments/Pasted image 20241120120422.png",
-    "Sources/Zero-To-Mastery/SAge maker/attachments/Pasted image 20241120120415.png",
-    "Sources/Zero-To-Mastery/SAge maker/attachments/Pasted image 20241120120409.png",
-    "Sources/Zero-To-Mastery/SAge maker/attachments/Pasted image 20241120120402.png",
-    "Sources/Zero-To-Mastery/SAge maker/attachments/Pasted image 20241120120355.png",
-    "Sources/Zero-To-Mastery/SAge maker/attachments/Pasted image 20241120120347.png",
-    "Sources/Zero-To-Mastery/SAge maker/attachments/Pasted image 20241120120340.png",
     "Sources/Zero-To-Mastery/SAge maker/attachments",
-    "Sources/Zero-To-Mastery/golang/Untitled.md",
     "Sources/Zero-To-Mastery/SAge maker",
-    "Sources/Zero-To-Mastery/golang/attachments",
-    "Conversations_with_ASH/Day_3/Data_flow_project/Description/Full data flow diagram.excalidraw",
-    "Sources/Zero-To-Mastery/golang",
-    "Sources/Zero-To-Mastery/pytorch/attachments",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Speaking to the project creator about data pipeline.md",
-    "Planning/2024-11-19 - Bootcamp Planning Document.md",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Untitled.md",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Project -Dynamic Token Allocation for DAO Governance.md",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day 2.5 - Planning Next v2.md",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Day 2.4 - Planning next.md",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/Types of projects.md",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Advanced Blockchain Topics -1**.md",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/ZTM topics.md",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Advanced Blockchain Topics**.md",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/list of common **ERC (Ethereum Request for Comments)** token standards and their purposes.md",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**General Testing Types**.md",
-    "Conversations_with_ASH/Day_2/Notes/Conversations_with_ASH/**Security and Vulnerability Issues in Smart Contracts**.md"
+    "Sources/Zero-To-Mastery/golang/attachments"
   ]
 }
