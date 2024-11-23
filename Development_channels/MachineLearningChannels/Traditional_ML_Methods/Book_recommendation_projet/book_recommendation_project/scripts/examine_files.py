@@ -13,21 +13,22 @@ ratings_df = pd.read_csv(ratings_path)
 users_df = pd.read_csv(users_path)
 
 # Display the first few rows of each dataset to get an overview
-print("Books DataFrame Overview:")
-print(books_df.head(), "\n")
-
-print("Ratings DataFrame Overview:")
-print(ratings_df.head(), "\n")
-
-print("Users DataFrame Overview:")
-print(users_df.head(), "\n")
 
 # Display some basic statistics
 print("Books DataFrame Info:")
 print(books_df.info(), "\n")
 
+print("Books DataFrame Overview:")
+print(books_df.head(), "\n")
+
 print("Ratings DataFrame Info:")
 print(ratings_df.info(), "\n")
 
+print("Ratings DataFrame Overview:")
+print(ratings_df.head(), "\n")
+
 print("Users DataFrame Info:")
 print(users_df.info(), "\n")
+
+print("Users DataFrame Overview:")
+print(users_df.head(), "\n")
