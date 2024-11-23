@@ -85,21 +85,38 @@ print(average_rating_per_user.head(10),"\n")
 
 max_rating = explicit_ratings['Book-Rating'].max()-3
 highest_rated_books = explicit_ratings[explicit_ratings['Book-Rating'] >= max_rating]
-most_highest_rated_books = highest_rated_books['ISBN'].value_counts().reset_index()
- 
-print(" ")
-print("Most Highest Rated Books")
-print(most_highest_rated_books.head(10),"\n")
 
-print("How many users have at least one of the highest rated books in their set?")
-users_with_highest_rated_books = highest_rated_books['User-ID'].nunique()
-print(users_with_highest_rated_books,"\n")
-print(users_with_highest_rated_books/num_users*100,"% of users have at least one of the highest rated books in their set","\n")
+most_highly_rated_book_title = highest_rated_books['Book-Title'].value_counts().idxmax()
+print("Most Highly Rated Book:", most_highly_rated_book_title)
 
-print("If someone has the most highest rated book in their set, what are the most common other books in their set?")
-users_with_most_highest_rated_book = highest_rated_books[highest_rated_books['ISBN'] == most_highest_rated_books['ISBN'][0]]['User-ID'].unique()
-book_collection_of_people_with_highest_rated_book = highest_rated_books['User-ID'].isin(users_with_most_highest_rated_book)
-remainder_of_collection = book_collection_of_people_with_highest_rated_book[book_collection_of_people_with_highest_rated_book['ISBN'] != most_highest_rated_books['ISBN'][0]]['ISBN'].value_counts().reset_index()
-number_of_users_with_firstandsecond_high = highest_rated_books[highest_rated_books['ISBN'] == remainder_of_collection['ISBN'][0]]['User-ID'].nunique()
 
+most_highly_rated_book = highest_rated_books['ISBN'].value_counts().idxmax()
+users_with_most_highly_rated_book = explicit_ratings[explicit_ratings['ISBN'] == most_highly_rated_book]['User-ID'].unique()
+print("Users with Most Highly Rated Book:", len(users_with_most_highly_rated_book))
+
+books_of_users_with_high_book = explicit_ratings[explicit_ratings['User-ID'].isin(users_with_most_highly_rated_book)]
+# Display the books of users with the most highly rated book
+print("Books of Users with the Most Highly Rated Book:")
+print(books_of_users_with_high_book.head(), "\n")
+
+other_books = books_of_users_with_high_book[books_of_users_with_high_book['ISBN'] != most_highly_rated_book]
+# Display the other books (excluding the most highly rated book)
+print("Other Books:")
+print(other_books.head(), "\n")
+
+most_common_other_book = other_books['ISBN'].value_counts().idxmax()
+print("Most Common Other Book:", most_common_other_book)
+
+users_with_both_books = books_of_users_with_high_book[
+    (books_of_users_with_high_book['ISBN'] == most_common_other_book) |
+    (books_of_users_with_high_book['ISBN'] == most_highly_rated_book)
+]['User-ID'].value_counts()
+users_with_both_books_count = sum(users_with_both_books == 2)
+
+print("Users with Both Books:", users_with_both_books_count)
+
+
+percentage_users_with_both = (users_with_both_books_count / len(users_with_most_highly_rated_book)) * 100
+
+print(f"Percentage of users who have both the most highly rated book and the most common other book: {percentage_users_with_both:.2f}%")
 
